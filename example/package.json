@@ -1,0 +1,22 @@
+{
+  "name": "testj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-common": "tsc --outDir build",
+    "build-amd": "tsc --module amd --out build/main.amd.js",
+    "build-vendor": "r.js -o vendor.js",
+    "serve": "http-server -a localhost -p 8080 ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsmodt": "git+https://github.com/sergiu-paraschiv/jsmodt.git"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "requirejs": "^2.3.5",
+    "typescript": "^2.6.1"
+  }
+}
