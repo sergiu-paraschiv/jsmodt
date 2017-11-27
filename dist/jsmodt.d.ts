@@ -1,4 +1,1 @@
-declare module "Test" {
-    export const Test = "foo";
-    export function foo(): void;
-}
+export * from './sp/test/Test';

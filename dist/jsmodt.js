@@ -1,15 +1,6 @@
-System.register("Test", [], function (exports_1, context_1) {
-    "use strict";
-    var __moduleName = context_1 && context_1.id;
-    function foo() {
-        console.log(Test);
-    }
-    exports_1("foo", foo);
-    var Test;
-    return {
-        setters: [],
-        execute: function () {
-            exports_1("Test", Test = 'foo');
-        }
-    };
-});
+"use strict";
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+}
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(require("./sp/test/Test"));
