@@ -2,7 +2,9 @@
   "name": "jsmodt",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc --out dist/jsmodt.js "
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergiu-paraschiv/jsmodt.git"
