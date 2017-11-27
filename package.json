@@ -17,5 +17,7 @@
   "homepage": "https://github.com/sergiu-paraschiv/jsmodt#readme",
   "devDependencies": {
     "typescript": "^2.6.1"
-  }
+  },
+  "main": "dist/jsmodt.js",
+  "typings": "dist/jsmodt.d.ts"
 }
